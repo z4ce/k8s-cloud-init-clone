@@ -1,8 +1,8 @@
 # Cloud init clone 
 These scripts let you take a cloud builder image and instantiate it and join it to an existing CAPV managed kubernetes cluster. You might find this useful if you want a VM outside of cluster api management to attach specialty hardware.
 #Prereqs
-1. kubeadm, kubectl, govc, jq installed
-2. kubectl targetting your desired destination cluster
+1. kubeadm, kubectl, govc, jq installed and in your $PATH
+2. kubectl targeting your desired destination cluster
 
 # Using
 1. Set your GOVC environment variables like
